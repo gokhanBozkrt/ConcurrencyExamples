@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F773CEC12B1D184F0010B31A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773CEC02B1D184F0010B31A /* DetailsViewController.swift */; };
 		F78CEC512B05EE230017A558 /* OldConcurrencyLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */; };
 		F78CEC532B05EE230017A558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC522B05EE230017A558 /* ContentView.swift */; };
 		F78CEC552B05EE240017A558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78CEC542B05EE240017A558 /* Assets.xcassets */; };
 		F78CEC582B05EE240017A558 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78CEC572B05EE240017A558 /* Preview Assets.xcassets */; };
+		F78CEC5F2B05EE470017A558 /* DispatchgroupLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC5E2B05EE470017A558 /* DispatchgroupLesson.swift */; };
+		F78CEC742B0609030017A558 /* DispatchWorkItemLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC732B0609030017A558 /* DispatchWorkItemLesson.swift */; };
+		F7BF48872B0756A2007829FF /* DoTask-Async-Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF48862B0756A2007829FF /* DoTask-Async-Sync.swift */; };
+		F7EC6F2D2B0B37A30096B2BE /* Operation-BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC6F2C2B0B37A30096B2BE /* Operation-BlockOperation.swift */; };
+		F7EC6F2F2B0B3CD70096B2BE /* OperationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC6F2E2B0B3CD70096B2BE /* OperationUsage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F773CEC02B1D184F0010B31A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F78CEC4D2B05EE230017A558 /* OldConcurrencyLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldConcurrencyLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldConcurrencyLessonsApp.swift; sourceTree = "<group>"; };
 		F78CEC522B05EE230017A558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F78CEC542B05EE240017A558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78CEC572B05EE240017A558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F78CEC5E2B05EE470017A558 /* DispatchgroupLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchgroupLesson.swift; sourceTree = "<group>"; };
+		F78CEC732B0609030017A558 /* DispatchWorkItemLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorkItemLesson.swift; sourceTree = "<group>"; };
+		F7BF48862B0756A2007829FF /* DoTask-Async-Sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DoTask-Async-Sync.swift"; sourceTree = "<group>"; };
+		F7EC6F2C2B0B37A30096B2BE /* Operation-BlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operation-BlockOperation.swift"; sourceTree = "<group>"; };
+		F7EC6F2E2B0B3CD70096B2BE /* OperationUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationUsage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F773CEC22B1D1C820010B31A /* DispatchGroup */ = {
+			isa = PBXGroup;
+			children = (
+				F78CEC5E2B05EE470017A558 /* DispatchgroupLesson.swift */,
+			);
+			path = DispatchGroup;
+			sourceTree = "<group>";
+		};
+		F773CEC32B1D1CB50010B31A /* DispatchWorkItems */ = {
+			isa = PBXGroup;
+			children = (
+				F78CEC732B0609030017A558 /* DispatchWorkItemLesson.swift */,
+			);
+			path = DispatchWorkItems;
+			sourceTree = "<group>";
+		};
+		F773CEC42B1D1CD50010B31A /* AsyncAndSync  */ = {
+			isa = PBXGroup;
+			children = (
+				F7BF48862B0756A2007829FF /* DoTask-Async-Sync.swift */,
+			);
+			path = "AsyncAndSync ";
+			sourceTree = "<group>";
+		};
+		F773CEC52B1D1D140010B31A /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC6F2C2B0B37A30096B2BE /* Operation-BlockOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		F773CEC62B1D1D610010B31A /* OperationsVsGCD */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC6F2E2B0B3CD70096B2BE /* OperationUsage.swift */,
+			);
+			path = OperationsVsGCD;
+			sourceTree = "<group>";
+		};
+		F773CEC72B1D1D890010B31A /* MainThreadWorks */ = {
+			isa = PBXGroup;
+			children = (
+				F773CEC02B1D184F0010B31A /* DetailsViewController.swift */,
+			);
+			path = MainThreadWorks;
+			sourceTree = "<group>";
+		};
 		F78CEC442B05EE230017A558 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +113,12 @@
 			children = (
 				F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */,
 				F78CEC522B05EE230017A558 /* ContentView.swift */,
+				F773CEC72B1D1D890010B31A /* MainThreadWorks */,
+				F773CEC22B1D1C820010B31A /* DispatchGroup */,
+				F773CEC32B1D1CB50010B31A /* DispatchWorkItems */,
+				F773CEC42B1D1CD50010B31A /* AsyncAndSync  */,
+				F773CEC52B1D1D140010B31A /* Operations */,
+				F773CEC62B1D1D610010B31A /* OperationsVsGCD */,
 				F78CEC542B05EE240017A558 /* Assets.xcassets */,
 				F78CEC562B05EE240017A558 /* Preview Content */,
 			);
@@ -137,6 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BF48872B0756A2007829FF /* DoTask-Async-Sync.swift in Sources */,
+				F7EC6F2F2B0B3CD70096B2BE /* OperationUsage.swift in Sources */,
+				F78CEC5F2B05EE470017A558 /* DispatchgroupLesson.swift in Sources */,
+				F773CEC12B1D184F0010B31A /* DetailsViewController.swift in Sources */,
+				F78CEC742B0609030017A558 /* DispatchWorkItemLesson.swift in Sources */,
+				F7EC6F2D2B0B37A30096B2BE /* Operation-BlockOperation.swift in Sources */,
 				F78CEC532B05EE230017A558 /* ContentView.swift in Sources */,
 				F78CEC512B05EE230017A558 /* OldConcurrencyLessonsApp.swift in Sources */,
 			);
