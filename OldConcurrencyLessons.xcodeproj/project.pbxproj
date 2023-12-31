@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D14D59D2B4005D30059E485 /* Global_Custom_Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */; };
+		7D5804072B41F578009A8CF6 /* ThreadSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5804062B41F578009A8CF6 /* ThreadSafety.swift */; };
+		7D5804092B41FBB8009A8CF6 /* ThreadSafety2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */; };
 		F773CEC12B1D184F0010B31A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773CEC02B1D184F0010B31A /* DetailsViewController.swift */; };
 		F78CEC512B05EE230017A558 /* OldConcurrencyLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */; };
 		F78CEC532B05EE230017A558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC522B05EE230017A558 /* ContentView.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global_Custom_Queues.swift; sourceTree = "<group>"; };
+		7D5804062B41F578009A8CF6 /* ThreadSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety.swift; sourceTree = "<group>"; };
+		7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety2.swift; sourceTree = "<group>"; };
 		F773CEC02B1D184F0010B31A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F78CEC4D2B05EE230017A558 /* OldConcurrencyLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldConcurrencyLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldConcurrencyLessonsApp.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 				7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */,
 			);
 			path = GlobalvsCustomDispatchQueues;
+			sourceTree = "<group>";
+		};
+		7D5804052B41F513009A8CF6 /* Thread-Safety */ = {
+			isa = PBXGroup;
+			children = (
+				7D5804062B41F578009A8CF6 /* ThreadSafety.swift */,
+				7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */,
+			);
+			path = "Thread-Safety";
 			sourceTree = "<group>";
 		};
 		F773CEC22B1D1C820010B31A /* DispatchGroup */ = {
@@ -130,6 +143,7 @@
 				F773CEC62B1D1D610010B31A /* OperationsVsGCD */,
 				F773CEC72B1D1D890010B31A /* MainThreadWorks */,
 				7D14D59B2B40058F0059E485 /* GlobalvsCustomDispatchQueues */,
+				7D5804052B41F513009A8CF6 /* Thread-Safety */,
 				F78CEC542B05EE240017A558 /* Assets.xcassets */,
 				F78CEC562B05EE240017A558 /* Preview Content */,
 			);
@@ -217,12 +231,14 @@
 				F7BF48872B0756A2007829FF /* DoTask-Async-Sync.swift in Sources */,
 				F7EC6F2F2B0B3CD70096B2BE /* OperationUsage.swift in Sources */,
 				F78CEC5F2B05EE470017A558 /* DispatchgroupLesson.swift in Sources */,
+				7D5804072B41F578009A8CF6 /* ThreadSafety.swift in Sources */,
 				F773CEC12B1D184F0010B31A /* DetailsViewController.swift in Sources */,
 				F78CEC742B0609030017A558 /* DispatchWorkItemLesson.swift in Sources */,
 				F7EC6F2D2B0B37A30096B2BE /* Operation-BlockOperation.swift in Sources */,
 				7D14D59D2B4005D30059E485 /* Global_Custom_Queues.swift in Sources */,
 				F78CEC532B05EE230017A558 /* ContentView.swift in Sources */,
 				F78CEC512B05EE230017A558 /* OldConcurrencyLessonsApp.swift in Sources */,
+				7D5804092B41FBB8009A8CF6 /* ThreadSafety2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

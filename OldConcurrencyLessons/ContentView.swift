@@ -19,7 +19,8 @@ struct ContentView: View {
     var operationCancellation = OperationCancelExample()
     var gcdCancellation = LongRunningTaskWithCGD()
     var mainThreadOp = DetailsViewController()
-    
+    var counter = Counter()
+    var documentManager = PrintManager()
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -28,7 +29,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .onTapGesture {
-            mainThreadOp.startOperation()
+            documentManager.doTasks()
         }
     }
 }
