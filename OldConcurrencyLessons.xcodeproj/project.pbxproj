@@ -10,6 +10,7 @@
 		7D14D59D2B4005D30059E485 /* Global_Custom_Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */; };
 		7D5804072B41F578009A8CF6 /* ThreadSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5804062B41F578009A8CF6 /* ThreadSafety.swift */; };
 		7D5804092B41FBB8009A8CF6 /* ThreadSafety2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */; };
+		7DB891B72B49E52800C99154 /* ThreadSafety3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB891B62B49E52800C99154 /* ThreadSafety3.swift */; };
 		F773CEC12B1D184F0010B31A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773CEC02B1D184F0010B31A /* DetailsViewController.swift */; };
 		F78CEC512B05EE230017A558 /* OldConcurrencyLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */; };
 		F78CEC532B05EE230017A558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78CEC522B05EE230017A558 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global_Custom_Queues.swift; sourceTree = "<group>"; };
 		7D5804062B41F578009A8CF6 /* ThreadSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety.swift; sourceTree = "<group>"; };
 		7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety2.swift; sourceTree = "<group>"; };
+		7DB891B62B49E52800C99154 /* ThreadSafety3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety3.swift; sourceTree = "<group>"; };
 		F773CEC02B1D184F0010B31A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F78CEC4D2B05EE230017A558 /* OldConcurrencyLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldConcurrencyLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78CEC502B05EE230017A558 /* OldConcurrencyLessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldConcurrencyLessonsApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				7D5804062B41F578009A8CF6 /* ThreadSafety.swift */,
 				7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */,
+				7DB891B62B49E52800C99154 /* ThreadSafety3.swift */,
 			);
 			path = "Thread-Safety";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				F7EC6F2D2B0B37A30096B2BE /* Operation-BlockOperation.swift in Sources */,
 				7D14D59D2B4005D30059E485 /* Global_Custom_Queues.swift in Sources */,
 				F78CEC532B05EE230017A558 /* ContentView.swift in Sources */,
+				7DB891B72B49E52800C99154 /* ThreadSafety3.swift in Sources */,
 				F78CEC512B05EE230017A558 /* OldConcurrencyLessonsApp.swift in Sources */,
 				7D5804092B41FBB8009A8CF6 /* ThreadSafety2.swift in Sources */,
 			);

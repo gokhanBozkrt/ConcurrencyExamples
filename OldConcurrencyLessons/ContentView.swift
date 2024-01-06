@@ -21,6 +21,8 @@ struct ContentView: View {
     var mainThreadOp = DetailsViewController()
     var counter = Counter()
     var documentManager = PrintManager()
+    var permitter = Permitter()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -29,7 +31,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .onTapGesture {
-            documentManager.doTasks()
+            permitter.doPermitTask()
         }
     }
 }

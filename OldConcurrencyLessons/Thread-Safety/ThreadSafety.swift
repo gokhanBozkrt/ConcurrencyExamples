@@ -10,6 +10,15 @@
 
 import Foundation
 
+
+/* 
+ 
+ NSLock -> Blocks
+ Semaphore -> Blok mode wait, await mode timeout 
+ 
+
+*/
+
 class Counter {
     
     var count = 0 // Shared resource accessed by 2 threads
