@@ -22,6 +22,7 @@ struct ContentView: View {
     var counter = Counter()
     var documentManager = PrintManager()
     var permitter = Permitter()
+    var deadlock = DeadLockExample()
     
     var body: some View {
         VStack {
@@ -31,7 +32,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .onTapGesture {
-            permitter.doPermitTask()
+            deadlock.resourceExhaustion()
         }
     }
 }
