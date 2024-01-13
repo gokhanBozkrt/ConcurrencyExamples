@@ -23,6 +23,8 @@ struct ContentView: View {
     var documentManager = PrintManager()
     var permitter = Permitter()
     var deadlock = DeadLockExample()
+    var raceCondition = RaceCondtion()
+    var atomicCounter = AtomicCounter()
     
     var body: some View {
         VStack {
@@ -32,7 +34,8 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .onTapGesture {
-            deadlock.resourceExhaustion()
+            atomicCounter.getCounter()
+           
         }
     }
 }

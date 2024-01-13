@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7D14D59D2B4005D30059E485 /* Global_Custom_Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */; };
 		7D379AE52B4B0CB000355929 /* DeadLockExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379AE42B4B0CB000355929 /* DeadLockExample.swift */; };
+		7D3F7AB62B53210E00BF5A4B /* RaceCondtionEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F7AB52B53210E00BF5A4B /* RaceCondtionEx.swift */; };
+		7D3F7AB82B53255F00BF5A4B /* AtomicCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F7AB72B53255F00BF5A4B /* AtomicCounter.swift */; };
 		7D5804072B41F578009A8CF6 /* ThreadSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5804062B41F578009A8CF6 /* ThreadSafety.swift */; };
 		7D5804092B41FBB8009A8CF6 /* ThreadSafety2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */; };
 		7DB891B72B49E52800C99154 /* ThreadSafety3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB891B62B49E52800C99154 /* ThreadSafety3.swift */; };
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		7D14D59C2B4005D30059E485 /* Global_Custom_Queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global_Custom_Queues.swift; sourceTree = "<group>"; };
 		7D379AE42B4B0CB000355929 /* DeadLockExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadLockExample.swift; sourceTree = "<group>"; };
+		7D3F7AB52B53210E00BF5A4B /* RaceCondtionEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCondtionEx.swift; sourceTree = "<group>"; };
+		7D3F7AB72B53255F00BF5A4B /* AtomicCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicCounter.swift; sourceTree = "<group>"; };
 		7D5804062B41F578009A8CF6 /* ThreadSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety.swift; sourceTree = "<group>"; };
 		7D5804082B41FBB8009A8CF6 /* ThreadSafety2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety2.swift; sourceTree = "<group>"; };
 		7DB891B62B49E52800C99154 /* ThreadSafety3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety3.swift; sourceTree = "<group>"; };
@@ -68,6 +72,15 @@
 				7D379AE42B4B0CB000355929 /* DeadLockExample.swift */,
 			);
 			path = Deadlocks;
+			sourceTree = "<group>";
+		};
+		7D3F7AB42B5320E900BF5A4B /* RaceCondition */ = {
+			isa = PBXGroup;
+			children = (
+				7D3F7AB52B53210E00BF5A4B /* RaceCondtionEx.swift */,
+				7D3F7AB72B53255F00BF5A4B /* AtomicCounter.swift */,
+			);
+			path = RaceCondition;
 			sourceTree = "<group>";
 		};
 		7D5804052B41F513009A8CF6 /* Thread-Safety */ = {
@@ -158,6 +171,7 @@
 				7D14D59B2B40058F0059E485 /* GlobalvsCustomDispatchQueues */,
 				7D5804052B41F513009A8CF6 /* Thread-Safety */,
 				7D379AE32B4B0C8D00355929 /* Deadlocks */,
+				7D3F7AB42B5320E900BF5A4B /* RaceCondition */,
 				F78CEC542B05EE240017A558 /* Assets.xcassets */,
 				F78CEC562B05EE240017A558 /* Preview Content */,
 			);
@@ -243,12 +257,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7BF48872B0756A2007829FF /* DoTask-Async-Sync.swift in Sources */,
+				7D3F7AB62B53210E00BF5A4B /* RaceCondtionEx.swift in Sources */,
 				F7EC6F2F2B0B3CD70096B2BE /* OperationUsage.swift in Sources */,
 				F78CEC5F2B05EE470017A558 /* DispatchgroupLesson.swift in Sources */,
 				7D379AE52B4B0CB000355929 /* DeadLockExample.swift in Sources */,
 				7D5804072B41F578009A8CF6 /* ThreadSafety.swift in Sources */,
 				F773CEC12B1D184F0010B31A /* DetailsViewController.swift in Sources */,
 				F78CEC742B0609030017A558 /* DispatchWorkItemLesson.swift in Sources */,
+				7D3F7AB82B53255F00BF5A4B /* AtomicCounter.swift in Sources */,
 				F7EC6F2D2B0B37A30096B2BE /* Operation-BlockOperation.swift in Sources */,
 				7D14D59D2B4005D30059E485 /* Global_Custom_Queues.swift in Sources */,
 				F78CEC532B05EE230017A558 /* ContentView.swift in Sources */,
